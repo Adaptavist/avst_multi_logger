@@ -9,6 +9,8 @@ Gem::Specification.new do |s|
   s.files       = ["lib/avst_multi_logger.rb"]
   s.license     = "Apache-2.0"
   s.homepage    =
-    'https://github.com/Adaptavist/avst_multi_logger'
-end
+      'https://github.com/Adaptavist/avst_multi_logger'
 
+  s.add_development_dependency "bundler", "~> 1.6"
+  s.add_development_dependency "rake"
+end
