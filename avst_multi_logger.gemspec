@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'avst_multi_logger'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.date        = '2014-10-10'
   s.summary     = "Logger with multiple output options"
   s.description = "Extends ruby logger, adds multiple sources and log summary"
@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
   s.homepage    =
       'https://github.com/Adaptavist/avst_multi_logger'
 
-  s.add_development_dependency "bundler", "~> 1.6"
+  s.add_development_dependency "bundler", "2.2.10"
   s.add_development_dependency "rake"
 end
